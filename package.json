@@ -1,0 +1,40 @@
+{
+  "name": "se-cli",
+  "version": "0.1.0",
+  "description": "A Selenium command line interface.",
+  "main": "index.js",
+  "engines": {
+    "node": "0.10.28"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "bin": {
+    "se": "bin/se-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/naoufal/node-se-cli.git"
+  },
+  "keywords": [
+    "start",
+    "stop",
+    "selenium",
+    "standalone",
+    "server",
+    "test",
+    "testing",
+    "webdriver"
+  ],
+  "author": "Naoufal Kadhom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naoufal/node-se-cli/issues"
+  },
+  "homepage": "https://github.com/naoufal/node-se-cli",
+  "dependencies": {
+    "cli": "^0.6.3",
+    "cli-color": "^0.3.2",
+    "superagent": "^0.18.2"
+  }
+}
